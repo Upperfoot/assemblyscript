@@ -97,7 +97,7 @@
     "bootstrap:rtraced": "node bin/asc --config src/asconfig.json --target rtraced && node bin/asc --config src/asconfig.json --target rtraced --wasm out/assemblyscript.rtraced.wasm",
     "astest": "ts-node tests/bootstrap"
   },
-  "releaseFiles": [
+  "files": [
     "lib/loader/index.d.ts",
     "lib/loader/index.js",
     "lib/loader/package.json",
